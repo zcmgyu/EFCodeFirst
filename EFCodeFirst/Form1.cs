@@ -28,7 +28,7 @@ namespace EFCodeFirst
             db.Standards.Add(stand);
             db.SaveChanges();
             MessageBox.Show("Saved");
-            // Long edit 123
+            // Long edit 1234
         }
     }
 }
