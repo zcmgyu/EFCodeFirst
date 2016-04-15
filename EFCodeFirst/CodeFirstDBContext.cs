@@ -29,9 +29,12 @@ namespace EFCodeFirst
     class CodeFirstDbContext:DbContext
     {
 
-        public CodeFirstDbContext() : base("name=SchoolDB")
+        public CodeFirstDbContext() : base("name=MySchoolDb")
         {
             
         }
+        public DbSet<Standard> Standards { get; set; }
+        public DbSet<Student> Students { get; set; }
+
     }
 }

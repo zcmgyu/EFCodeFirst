@@ -18,5 +18,7 @@ namespace EFCodeFirst
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
+
     }
 }

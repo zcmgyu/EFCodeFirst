@@ -16,5 +16,18 @@ namespace EFCodeFirst
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var db = new CodeFirstDbContext();
+            var stand = new Standard
+            {
+                StandardName = "Nhat - Han - Thai",
+                Description = "New Description"
+            };
+            db.Standards.Add(stand);
+            db.SaveChanges();
+            MessageBox.Show("Saved");
+        }
     }
 }
