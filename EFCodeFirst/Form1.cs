@@ -28,7 +28,7 @@ namespace EFCodeFirst
             db.Standards.Add(stand);
             db.SaveChanges();
             MessageBox.Show("Saved");
-            // Duy Edit 2
+            // Duy Edittttt
         }
     }
 }
